@@ -1,0 +1,31 @@
+{
+  "name": "excalidraw-export-cli",
+  "version": "1.0.0",
+  "description": "Export .excalidraw files to PNG using headless Chromium",
+  "type": "module",
+  "bin": {
+    "excalidraw-export": "./bin/export.mjs"
+  },
+  "files": [
+    "bin/"
+  ],
+  "keywords": [
+    "excalidraw",
+    "export",
+    "png",
+    "cli",
+    "diagram"
+  ],
+  "author": "Nadav Erell",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nadaverell/excalidraw-export-cli.git"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "peerDependencies": {
+    "playwright": ">=1.40.0"
+  }
+}
