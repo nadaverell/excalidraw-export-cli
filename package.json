@@ -4,7 +4,7 @@
   "description": "Export .excalidraw files to PNG using headless Chromium",
   "type": "module",
   "bin": {
-    "excalidraw-export": "./bin/export.mjs"
+    "excalidraw-export": "bin/excalidraw-export.mjs"
   },
   "files": [
     "bin/"
@@ -20,7 +20,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nadaverell/excalidraw-export-cli.git"
+    "url": "git+https://github.com/nadaverell/excalidraw-export-cli.git"
   },
   "engines": {
     "node": ">=18"
